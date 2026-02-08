@@ -35,44 +35,21 @@ Response
   ]
 }
 
-Supabase Setup
+## **Supabase Setup**
 
-Tables: profiles, queries, resources
+- Tables: profiles, queries, resources
 
-RLS enabled on all tables
+- RLS enabled on all tables
 
-Public read policy on resources
+- Public read policy on resources
 
-Storage bucket: learning-resources
+- Storage bucket: learning-resources
 
-How to Run Locally
-npm install
-npm run dev
-
-
-Server runs on http://localhost:5000
-
-Security Notes
-
-Environment variables stored in .env
-
-No secrets committed to repository
-
-RLS enabled in Supabase
-
-One Improvement with More Time
-
-Add real AI integration (RAG-based search)
-
-Add authentication-based user query history
-
-Ranking resources by relevance
-
-
----
-
-
-Thunder Client:
+## **How to Run Locally**
+- npm install
+- npm run dev
+- Server runs on http://localhost:5000
+- Thunder Client:
 
 POST http://localhost:5000/ask-jiji
 
