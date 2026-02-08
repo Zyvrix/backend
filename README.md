@@ -21,6 +21,7 @@ and returns a structured response.
 
 ### POST /ask-jiji
 **Request Body**
+**eg:**
 ```json
 {
   "query": "Explain RAG"
