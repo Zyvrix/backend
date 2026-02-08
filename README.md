@@ -13,7 +13,7 @@ and returns a structured response.
 ## Features
 - POST API to accept learning queries
 - Fetches related PPT & Video resources from Supabase
-- Mocked AI response (no real AI integration)
+- Mocked AI response 
 - Supabase Row Level Security (RLS)
 - Basic input validation & error handling
 
@@ -70,25 +70,6 @@ Ranking resources by relevance
 
 
 ---
-
-# 🎥 STEP 2: Demo Video (2–3 minutes)
-
-**Record screen + mic (Loom / OBS / any recorder)**
-
-### What to show (script):
-1. Open Supabase dashboard  
-   - Show tables (`resources`)
-   - Show RLS enabled
-   - Show Storage bucket with PPT & video
-
-2. Open VS Code  
-   - Show folder structure
-   - Show `askJiji.js` route
-   - Show `supabase.js`
-
-3. Run server:
-```bash
-npm run dev
 
 
 Thunder Client:
